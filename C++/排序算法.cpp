@@ -12,7 +12,6 @@ using namespace std;
 //生成随机数
 //生成的范围为[low，hight]
 int random(int low, int hight) {
-    srand((unsigned) time(NULL));
     return low + (rand() % (hight - low + 1));
 }
 
